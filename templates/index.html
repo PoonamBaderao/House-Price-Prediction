@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h1>Predict House Price</h1>
+    <form action="/predict" method="POST">
+        <label for="Overall Qual">Overall Quality:</label>
+        <input type="number" name="Overall Qual" required><br><br>
+
+        <label for="Gr Liv Area">Above Ground Living Area (sq ft):</label>
+        <input type="number" name="Gr Liv Area" required><br><br>
+
+        <label for="Garage Cars">Number of Garage Cars:</label>
+        <input type="number" name="Garage Cars" required><br><br>
+
+        <label for="Year Built">Year Built:</label>
+        <input type="number" name="Year Built" required><br><br>
+
+        <label for="Total Bsmt SF">Total Basement Area (sq ft):</label>
+        <input type="number" name="Total Bsmt SF" required><br><br>
+
+        <input type="submit" value="Predict Price">
+    </form>
+</body>
+</html>
